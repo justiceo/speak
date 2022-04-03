@@ -1,7 +1,8 @@
 {
   "name": "Speak",
-  "version": "22.04.03",
   "description": "Bringing voice-forward experiences to the browser",
+  "homepage_url": "https://github.com/justiceo/speak",
+  "version": "22.04.03",
   "manifest_version": 3,
   "permissions": ["storage", "management"],
   "host_permissions": ["*://*/*"],
