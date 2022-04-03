@@ -1,7 +1,7 @@
 {
-  "name": "xtension",
+  "name": "speak",
   "version": "22.04.03",
-  "description": "Chrome and Firefox extension starter with Typescript, Gulp and E2E tests",
+  "description": "Bringing voice-forward experiences to the browser",
   "scripts": {
     "lint": "eslint ./ --fix",
     "test": "npm run lint && gulp Test",

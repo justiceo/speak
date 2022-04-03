@@ -1,7 +1,7 @@
 {
-  "name": "Chrome Extension Starter",
+  "name": "Speak",
   "version": "22.04.03",
-  "description": "Chrome extension starter kit (boilerplate) with Typescript, Gulp and E2E tests",
+  "description": "Bringing voice-forward experiences to the browser",
   "manifest_version": 3,
   "permissions": ["storage", "management"],
   "host_permissions": ["*://*/*"],
