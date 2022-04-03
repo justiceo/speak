@@ -1,8 +1,8 @@
-# ![logo](assets/images/icon-24x24.png) Browser Extension Starter
+# ![logo](assets/images/icon-24x24.png) Speak
 
 [![Build Status](https://travis-ci.org/justiceo/chrome-extension-starter.svg?branch=master)](https://travis-ci.org/justiceo/chrome-extension-starter)
 
-Chrome and Firefox extension starter kit (boilerplate) for Typescript development with Gulp and E2E tests
+Voice-forward browsing.
 
 ### Features
 * **Automatic Github Pages generation**: Files added in the `gh-pages` sub-directory are branched to create a Github page automatically. This is useful for static pages like help, welcome and feedback pages.
@@ -82,3 +82,8 @@ gulp Pack
 2. Copy the specific files you want from master to xtension. U
 `git checkout master -- <path/to/file>`
 3. Make changes in xtension and commit. Push to xtension/master.
+
+
+### Design ideas
+1. https://www.pinterest.com/pin/772437773576577013/
+2. http://speechify.com
