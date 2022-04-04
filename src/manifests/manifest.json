@@ -4,7 +4,8 @@
   "homepage_url": "https://github.com/justiceo/speak",
   "version": "22.04.03",
   "manifest_version": 3,
-  "permissions": ["storage", "management"],
+  "permissions": [
+      "contextMenus", "storage", "management"],
   "host_permissions": ["*://*/*"],
   "action": {
     "default_icon": {
