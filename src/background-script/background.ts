@@ -1,6 +1,9 @@
 
+import { Logger } from "../logger";
+
+const log = new Logger("background-script");
 const uninstallUrl = "https://justiceo.github.io/speak/uninstall.html";
-const welcomeUrl = "https://justiceo.github.io/speak/uninstall.html";
+const welcomeUrl = "https://justiceo.github.io/speak/welcome.html";
 
 const onInstalled = (details: chrome.runtime.InstalledDetails) => {
   // On fresh install, open page how to use extension.
@@ -14,7 +17,7 @@ const onInstalled = (details: chrome.runtime.InstalledDetails) => {
   // Set url to take users upon uninstall.
   chrome.runtime.setUninstallURL(uninstallUrl, () => {
     if (chrome.runtime.lastError) {
-      console.error("Error setting uninstall URL", chrome.runtime.lastError);
+      log.error("Error setting uninstall URL", chrome.runtime.lastError);
     }
   });
 };
